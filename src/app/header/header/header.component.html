@@ -1,0 +1,12 @@
+<mat-toolbar  class="shadow justify-content-between px-5 mb-4">
+  <div>
+    <span class="mat-h2">Instant Pay</span>
+  </div>
+  <div>
+    <app-dialog (emitText)="addColumn($event)" question="Enter User Name">
+      <button mat-raised-button color="primary">
+        Add User
+      </button>
+    </app-dialog>
+  </div>
+</mat-toolbar>
